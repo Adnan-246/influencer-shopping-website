@@ -5,8 +5,8 @@
 body{
   font-family: 'Poppins', sans-serif;
   background: #F1E4FF;
-  width: 1200px;
   padding-left: 120px;
+  padding-right: 120px;
 }
 
 /* header styles */
@@ -31,4 +31,42 @@ body{
   color: #3A3A3A;
   font-size: 16px;
   font-weight: 600;
+}
+
+/* banner section styles */
+.banner-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.banner-info .banner-title{
+  color: #3A3A3A;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-info .banner-description{
+  color: #3A3A3A;
+  font-size: 16px;
+  line-height: normal;
+}
+.banner-info a{
+  text-decoration: none;
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
+  background: #E02C6D;
+  color: #FFFFFF;
+  padding: 10px 24px;
+  font-size: 16px;
+}
+.banner .banner-thumbnail img{
+  width: 440px;
+  height: 414px;
+  padding-top: 50px;
 }
