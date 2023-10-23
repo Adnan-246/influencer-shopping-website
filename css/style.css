@@ -5,5 +5,30 @@
 body{
   font-family: 'Poppins', sans-serif;
   background: #F1E4FF;
-  width: 1440px;
+  width: 1200px;
+  padding-left: 120px;
+}
+
+/* header styles */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.header-link{
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+}
+.header-link a,li{
+  text-decoration: none;
+  list-style: none;
+  color: #3A3A3A;
+  font-size: 16px;
+  font-weight: 600;
 }
