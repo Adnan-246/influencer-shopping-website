@@ -4,7 +4,7 @@
 /* common styles or utilities */
 body{
   font-family: 'Poppins', sans-serif;
-  background: #F1E4FF;
+  /* background: #F1E4FF; */
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -162,3 +162,40 @@ hr{
 }
 
 /* features section styles */
+.feature-section{
+  margin-top: 100px;
+  margin-left: 35px;
+  padding-bottom: 100px;
+}
+.features{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.features .feature-thumbnail img{
+  width: 404px;
+  height: 270px;
+  border-radius: 7px;
+}
+.feature-title{
+  font-size: 38px;
+  font-weight: 700;
+  color: #0A0826;
+}
+.feature-description{
+  color: #6C6C6C;
+  font-size: 16px;
+  line-height: 28px;
+
+}
+.feature-info a{
+  width: 155px;
+  height: 40px;
+  padding: 10px 24px;
+  background: #E02C6D;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
