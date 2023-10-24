@@ -53,7 +53,7 @@ body{
 .banner-info .banner-description{
   color: #3A3A3A;
   font-size: 16px;
-  line-height: normal;
+  padding: 16px;
 }
 .banner-info a{
   text-decoration: none;
@@ -69,4 +69,27 @@ body{
   width: 440px;
   height: 414px;
   padding-top: 50px;
+  padding-bottom: 112px;
+}
+
+/* brand section styles */
+.brand-section{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+hr{
+  width: 900px;
+  height: 1px solid gray;
+  margin-top: 35px;
+}
+.brands{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brands .brand-thumbnail{
+  color: #FF6600;
+  width: 55PX;
+  height: 31px;
+  
 }
