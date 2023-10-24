@@ -4,7 +4,8 @@
 /* common styles or utilities */
 body{
   font-family: 'Poppins', sans-serif;
-  /* background: #F1E4FF; */
+}
+main, header{
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -83,7 +84,7 @@ main{
   padding-right: 120px;
 }
 hr{
-  width: 900px;
+  width: 100%;
   height: 1px solid gray;
   margin-top: 35px;
 }
@@ -198,4 +199,40 @@ hr{
   text-decoration: none;
   font-size: 16px;
   border-radius: 5px;
+}
+
+/* footer section styles */
+.footer-section{
+  width: 50%;
+  height: 239px;
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-left: 598px;
+  padding-right: 598px;
+  background: #0A0826;
+  color: #FFFFFF;
+}
+.footer-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 0.9;
+}
+.footer-info .copyright{
+  font-size: 14px;
+  line-height: 0.9;
+}
+.footer-info .copyright-1{
+  font-size: 14px;
+  line-height: 0.9;
+  padding-left: 50px;
+}
+.footer-link{
+  display: inline-flex;
+  gap: 20px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+.footer-link a{
+  color: #FFFFFF;
+  text-decoration: none; 
 }
